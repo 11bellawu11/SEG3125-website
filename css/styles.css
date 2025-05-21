@@ -1,0 +1,249 @@
+html {
+    font-size: 26px;
+    font-family: "Gamja Flower";
+    box-sizing: border-box;
+    background-image: url(../images/20230812_223519.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* heading font customization*/
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    margin: 5%;
+}
+
+h5{
+    font-size: 24px;
+}
+
+h6{
+    font-size: 18px;
+}
+
+hr {
+    border-top: 1px solid var(--border-black);
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.col{
+    display: block;
+    width: 80%;
+    margin: 10%;
+    margin-top: 10%;
+    text-align: center;
+    padding: 0px;
+    line-height: 1.25;
+    border-radius: 5mm;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/*Link stuff*/
+a:link {
+    color: var(--border-black);
+    transition: color 0.25s ease-in-out;
+}
+
+a:visited {
+    color: var(--border-black);
+}
+
+a:hover {
+    color: var(--hover-brown);
+    transition: color 0.25s ease-in-out;
+}
+
+a:active {
+    color: var(--border-black);
+}
+
+
+.header{
+    display: block;
+    position: relative;
+    font-size: 26px;
+    font-family: 'Caveat', cursive;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: var(--brown);
+    border: 2px solid  var(--border-black);
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.column1{
+    font-family: 'Gamja Flower';
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.column3{
+    font-size: 26px;
+    font-family: 'Caveat', cursive;
+    margin: auto;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 25px;
+}
+.column4{
+    font-size: 18px;
+    margin: auto; 
+    font-family: 'Gamja Flower';
+    float: left;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+}
+
+.column5{
+    display: block;
+    font-size: 26px;
+    font-family: "Caveat", cursive;
+    text-align: center;
+    float: left; 
+    padding: 5px;
+    border-left: 2px solid var(--border-black);
+    border-top: 2px solid;
+    background-color: var(--brown);
+}
+
+.row1{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: var(--brown);
+}
+
+.card-body{
+    padding: 15px;
+    text-align: left;
+    background-color: var(--transparent-beige);
+    border-bottom-left-radius: 2mm;
+    border-bottom-right-radius: 2mm;
+}
+
+.card{
+    border-color: black;
+}
+
+
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.circular-img {
+    display: block;
+    border-radius: 100%;
+    max-width: 100%;
+    margin-top: 5%;
+    border: 2px solid var(--border-black);
+}
+
+/*button style*/
+.btn {
+    font-family: "Caveat", cursive;
+    padding: 10px;
+    margin: 2px;
+    font-size: 18px;
+    border: 2px solid var(--border-black);
+    width: 100%;
+    background: none;
+    border-radius: 10px;
+    transition: color 0.25s ease-in-out, border 0.25s ease-in-out;
+}
+
+.btn:hover {
+    color: var(--hover-brown);
+    border: 2px solid var(--hover-brown);
+    transition: color 0.25s ease-in-out, border 0.25s ease-in-out;
+}
+
+.btn1 {
+    font-family: "Caveat", cursive;
+    font-size: 24px;
+    padding:0px;
+    margin: 0px;
+    background: none;
+    border: none;
+    width:auto;
+    transition: color 0.25s ease-in-out;
+}
+
+.btn1:hover {
+    color: var(--hover-brown);
+    transition: color 0.25s ease-in-out;
+}
+
+
+
+#home{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    background-color: var(--transparent-beige);
+    border: 2px solid var(--border-black);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+#more-me {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    background-color: var(--transparent-beige);
+    border: 2px solid var(--border-black);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#workflow {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    background-color: var(--transparent-beige);
+    border: 2px solid var(--border-black);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#game {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    background-color: var(--transparent-beige);
+    border: 2px solid var(--border-black);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
