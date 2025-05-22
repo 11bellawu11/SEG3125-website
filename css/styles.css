@@ -207,7 +207,7 @@ a:active {
 }
 
 #projects{
-    display: grid;
+    display: none;
 }
 
 #more-me {
@@ -232,13 +232,13 @@ a:active {
     border-bottom-right-radius: 15px;
 }
 
-#footer{
+.footer{
     text-align: center;
     border-top: 2px solid var(--border-black);
     background-color: var(--brown);
 }
 
-#footer2{
+.footer2{
     text-align: center;
     border-top: 2px solid var(--border-black);
     background-color: var(--brown);
