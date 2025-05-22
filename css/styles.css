@@ -13,6 +13,7 @@ html {
 
 /* heading font customization*/
 h1,h2,h3,h4,h5,h6 {
+    font-family: "Gamja flower";
     font-weight: normal;
     margin: 5%;
 }
@@ -42,6 +43,7 @@ hr {
     padding: 0px;
     line-height: 1.25;
     border-radius: 5mm;
+    background-color: var(--transparent-beige);
 }
 
 body::-webkit-scrollbar {
@@ -204,6 +206,10 @@ a:active {
     
 }
 
+#projects{
+    display: grid;
+}
+
 #more-me {
     display: none;
     position: relative;
@@ -226,17 +232,17 @@ a:active {
     border-bottom-right-radius: 15px;
 }
 
-#game {
-    display: none;
-    position: relative;
-    overflow: hidden;
-    align-items: center;
-    background-color: var(--transparent-beige);
-    border: 2px solid var(--border-black);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+#footer{
+    text-align: center;
+    border-top: 2px solid var(--border-black);
+    background-color: var(--brown);
 }
 
+#footer2{
+    text-align: center;
+    border-top: 2px solid var(--border-black);
+    background-color: var(--brown);
+}
 
 
 

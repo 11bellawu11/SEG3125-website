@@ -3,6 +3,21 @@ function goHome() {
     document.querySelector("#more-me").style.display= "none";
     document.querySelector("#game").style.display= "none";
     document.querySelector("#workflow").style.display= "none";
+    document.querySelector("#projects").style.display= "none";
+    document.querySelector("#footer2").style.display= "block";
+
+}
+
+
+function HomeExpanded() {
+    document.querySelector("#home").style.display= "block";
+    document.querySelector("#more-me").style.display= "none";
+    document.querySelector("#game").style.display= "none";
+    document.querySelector("#workflow").style.display= "none";
+    document.querySelector("#projects").style.display= "grid";
+    document.querySelector("#footer").style.display= "block"
+    document.querySelector("#footer2").style.display= "none"
+
 }
     
 function goMe() {
@@ -10,6 +25,7 @@ function goMe() {
     document.querySelector("#more-me").style.display= "block";
     document.querySelector("#game").style.display= "none";
     document.querySelector("#workflow").style.display= "none";
+
 }
 
 function goWorkflow() {
@@ -17,12 +33,5 @@ function goWorkflow() {
     document.querySelector("#more-me").style.display= "none";
     document.querySelector("#game").style.display= "none";
     document.querySelector("#workflow").style.display= "block";
-}
 
-function goGame() {
-    document.querySelector("#home").style.display= "none";
-    document.querySelector("#more-me").style.display= "none";
-    document.querySelector("#game").style.display= "block";
-    document.querySelector("#workflow").style.display= "none";
 }
-
