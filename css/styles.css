@@ -1,5 +1,5 @@
 html {
-    font-size: 26px;
+    font-size: 32px;
     font-family: "Gamja Flower";
     box-sizing: border-box;
     background-image: url(../images/20230812_223519.jpg);
@@ -9,6 +9,7 @@ html {
     display: block;
     width: 100%;
     text-align: center;
+
 }
 
 /* heading font customization*/
@@ -19,11 +20,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h5{
-    font-size: 24px;
+    font-size: 32px;
 }
 
 h6{
-    font-size: 18px;
+    font-size: 24px;
 }
 
 hr {
@@ -73,7 +74,7 @@ a:active {
 .header{
     display: block;
     position: relative;
-    font-size: 26px;
+    font-size: 32px;
     font-family: 'Caveat', cursive;
     margin: 0 auto;
     padding: 5px;
@@ -114,19 +115,18 @@ a:active {
 
 .column5{
     display: block;
+    width: 25%;
+    height: 100%;
+    align-items: center;
     font-size: 26px;
     font-family: "Caveat", cursive;
     text-align: center;
     float: left; 
-    padding: 5px;
-    border-left: 2px solid var(--border-black);
+    padding: 1%;
     border-top: 2px solid;
-    background-color: var(--brown);
 }
 
 .row1{
-    display: grid;
-    grid-auto-flow: column;
     background-color: var(--brown);
 }
 
@@ -162,7 +162,7 @@ a:active {
     font-family: "Caveat", cursive;
     padding: 10px;
     margin: 2px;
-    font-size: 18px;
+    font-size: 24px;
     border: 2px solid var(--border-black);
     width: 100%;
     background: none;
@@ -178,7 +178,7 @@ a:active {
 
 .btn1 {
     font-family: "Caveat", cursive;
-    font-size: 24px;
+    font-size: 32px;
     padding:0px;
     margin: 0px;
     background: none;
@@ -192,6 +192,43 @@ a:active {
     transition: color 0.25s ease-in-out;
 }
 
+.btn2 {
+    font-family: "Caveat", cursive;
+    margin-top: 2%;
+    font-size: 24px;
+    border: 2px solid var(--border-black);
+    width: fit-content;
+    padding-left: 5%;
+    padding-right: 7%;
+    background: none;
+    border-radius: 10px;
+    transition: color 0.25s ease-in-out, border 0.25s ease-in-out;
+}
+
+.btn2:hover {
+    color: var(--hover-brown);
+    border: 2px solid var(--hover-brown);
+    transition: color 0.25s ease-in-out, border 0.25s ease-in-out;
+}
+
+.card{
+    height: 100%
+
+}
+
+.card-title{
+    margin:2%;
+    padding:0;
+    line-height: 20px;
+}
+
+.card-text{
+    margin:0%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding:0;
+    line-height: 20px;
+}
 
 
 #home{
